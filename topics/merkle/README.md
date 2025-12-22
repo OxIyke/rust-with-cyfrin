@@ -6,7 +6,7 @@ See [notes](https://github.com/Cyfrin/rust-crash-course/blob/main/notes/merkle-a
 
 ## Exercises
 
-Exercises are in [`./exercises/src/main.rs`](./exercises/src/main.rs)
+Exercises are in [`./exercises/src/main.rs`](https://github.com/Cyfrin/rust-crash-course/blob/main/topics/merkle/exercises/src/main.rs)
 
 ### Exercise 1
 
