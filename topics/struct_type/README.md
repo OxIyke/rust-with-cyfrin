@@ -23,7 +23,7 @@ Create an `struct` named `Account` having the fields
 
 - `address` of the type `String`
 - `balance` of the type `u32`
-
+f
 Prefix all struct fields with the `pub` keyword.
 
 ### Exercise 2
