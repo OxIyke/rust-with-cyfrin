@@ -11,7 +11,6 @@ cargo run --example if_let
 ## Exercises
 
 Exercises are in [`./exercises/src/lib.rs`](./exercises/src/lib.rs)
-
 ### Exercise 1
 
 ```rust
