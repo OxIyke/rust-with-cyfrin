@@ -1,10 +1,15 @@
 use std::cmp::PartialOrd;
 
-pub fn min(x: u32, y: u32) -> u32 {
+pub fn min<T: PartialOrd>(x: T, y: T) -> T {
     if x <= y { x } else { y }
 }
 
-pub fn zip(a: Vec<u32>, b: Vec<i32>) -> Vec<(u32, i32)> {
+
+pub fn zip<T, U>(a: Vec<T>, b: Vec<U>) -> Vec<(T, U)>
+where
+    T: Copy,
+    U: Copy,
+{
     let mut v = vec![];
     let len = min(a.len(), b.len());
 
