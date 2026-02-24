@@ -13,7 +13,7 @@ cargo run --example async
 Exercises are in [`./exercises/src/main.rs`](./exercises/src/main.rs)
 
 ### Exercise 1
-
+ 
 Convert `main` into `async main`.
 
 ## Test
